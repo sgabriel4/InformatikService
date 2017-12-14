@@ -1,7 +1,3 @@
-/**
- * NPJ Service extract text SOAP
- * UFRO 2017
- */
 package SOA;
 
 import java.io.BufferedOutputStream;
@@ -28,11 +24,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-/**
- * Clase principal con los metodos implementados de FileTransfer
- * @version 1.1.2
- * @author Freakzoid
- */
 @WebService(serviceName = "informatikservice")
 public class informatikservice implements FileTransfer{
     
